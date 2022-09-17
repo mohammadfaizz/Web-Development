@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Sanitizer</title>
+</head>
+<style>
+    *{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    text-align: center;
+}
+
+#container{
+    height: 100%;
+    border:2px solid red;
+}
+
+#img{
+    height: 120px;
+    width:120px;
+    border-radius: 100%;
+    margin: 5px;
+}
+</style>
+<body>
+    <div id="container">
+        <h1>welcome to my world</h1>
+        <hr>
+        <!-- <img id="img" src="./images/showcase-photo2.jpg" alt="">
+        <img id="img" src="./images/showcase-photo3.jpg" alt="">
+        <img id="img" src="./images/switzerland.jpg" alt=""> -->
+    </div>
+</body>
+<script>
+    const container = document.getElementById("container");
+const images = [
+"./images/showcase-photo2.jpg",
+"./images/showcase-photo3.jpg",
+"./images/switzerland.jpg"
+];
+
+function renderImages(){
+for(let i=0;i<images.length;i++){
+   container.innerHTML += `<img id="img" src="${images[i]}">` 
+}
+
+}
+
+renderImages();
+</script>
+</html>

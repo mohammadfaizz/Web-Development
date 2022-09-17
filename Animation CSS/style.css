@@ -1,0 +1,264 @@
+.box{
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    background-color: red;
+    animation-name: moving-ball-1;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    position:relative;
+    display:inline-block;
+    margin-right: 0px;
+}
+@keyframes moving-ball-1{
+    0%{
+        background-color: red;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    25%{
+        background-color:lightcyan;
+        margin-top: 0;
+        margin-left:200px;
+    }
+
+    50%{
+        background-color:blue;
+        margin-top: 200px;
+        margin-left:200px;
+    }
+
+    75%{
+        background-color:yellow;
+        margin-top: 200px;
+        margin-left: 0;
+    }
+    100%{
+        background-color:purple;
+        margin-top: 0;
+        margin-left: 0;
+    }
+}
+
+
+.box2{
+    height: 50px;
+    width:50px;
+    background-color: red;
+    animation-name: moving-ball-2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    /* animation-direction: reverse; */
+    position:relative;
+    display:inline-block;
+}
+@keyframes moving-ball-2{
+    0%{ 
+        background-color: red;
+        /* left: 250px; */
+        /* top: 0; */
+        margin-top: 0px;
+        margin-left: 200px;
+    }
+
+    25%{
+        background-color:lightcyan;
+        /* left:450px; */
+        /* top: 0; */
+        margin-top: 0px;
+        margin-left: 200px;
+    }
+
+    50%{
+        background-color:blue;
+        /* left:450px; */
+        /* top: 200px; */
+        margin-top: 200px;
+        margin-left: 200px;
+    }
+
+    75%{
+        background-color:yellow;
+        /* left: 0; */
+        /* top: 200px; */
+        margin-top: 200px;
+        margin-left: 200px;
+    }
+    100%{
+        background-color:purple;
+        /* left: 450px; */
+        /* top: 0; */
+        margin-top: 0px;
+        margin-left: 200px;
+    }
+}
+
+
+
+.box3{
+    height: 50px;
+    width:100px;
+    background-color: red;
+    animation-name: moving-ball-2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    /* animation-direction: reverse; */
+    position:relative;
+    display:inline-block;
+}
+@keyframes moving-ball-2{
+    0%{ 
+        background-color: red;
+        /* left: 250px; */
+        /* top: 0; */
+        margin-top: 0px;
+        margin-left: 200px;
+    }
+
+    25%{
+        background-color:lightcyan;
+        /* left:450px; */
+        /* top: 0; */
+        margin-top: 0px;
+        margin-left: 200px;
+    }
+
+    50%{
+        background-color:blue;
+        /* left:450px; */
+        /* top: 200px; */
+        margin-top: 200px;
+        margin-left: 200px;
+    }
+
+    75%{
+        background-color:yellow;
+        /* left: 0; */
+        /* top: 200px; */
+        margin-top: 200px;
+        margin-left: 200px;
+    }
+    100%{
+        background-color:purple;
+        /* left: 450px; */
+        /* top: 0; */
+        margin-top: 0px;
+        margin-left: 200px;
+    }
+}
+
+
+.box4{
+    height: 50px;
+    width:50px;
+    border-radius: 25%;
+    background-color: red;
+    animation-name: moving-ball-2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    /* animation-direction: reverse; */
+    position:relative;
+    display:inline-block;
+}
+@keyframes moving-ball-2{
+    0%{ 
+        background-color: red;
+        /* left: 250px; */
+        /* top: 0; */
+        margin-top: 0px;
+        margin-left: 200px;
+    }
+
+    25%{
+        background-color:lightcyan;
+        /* left:450px; */
+        /* top: 0; */
+        margin-top: 0px;
+        margin-left: 200px;
+    }
+
+    50%{
+        background-color:blue;
+        /* left:450px; */
+        /* top: 200px; */
+        margin-top: 200px;
+        margin-left: 200px;
+    }
+
+    75%{
+        background-color:yellow;
+        /* left: 0; */
+        /* top: 200px; */
+        margin-top: 200px;
+        margin-left: 200px;
+    }
+    100%{
+        background-color:purple;
+        /* left: 450px; */
+        /* top: 0; */
+        margin-top: 0px;
+        margin-left: 200px;
+    }
+}
+
+
+
+.box5{
+    height: 50px;
+    width:50px;
+    border-radius:40%;
+    background-color: red;
+    animation-name: moving-ball-2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    /* animation-direction: reverse; */
+    position:relative;
+    display:inline-block;
+}
+@keyframes moving-ball-2{
+    0%{ 
+        background-color: red;
+        /* left: 250px; */
+        /* top: 0; */
+        margin-top: 0px;
+        margin-left: 200px;
+    }
+
+    25%{
+        background-color:lightcyan;
+        /* left:450px; */
+        /* top: 0; */
+        margin-top: 0px;
+        margin-left: 200px;
+    }
+
+    50%{
+        background-color:blue;
+        /* left:450px; */
+        /* top: 200px; */
+        margin-top: 200px;
+        margin-left: 200px;
+    }
+
+    75%{
+        background-color:yellow;
+        /* left: 0; */
+        /* top: 200px; */
+        margin-top: 200px;
+        margin-left: 200px;
+    }
+    100%{
+        background-color:purple;
+        /* left: 450px; */
+        /* top: 0; */
+        margin-top: 0px;
+        margin-left: 200px;
+    }
+}

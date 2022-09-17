@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    text-align: center;
+    background:url(./travel-image1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+h1{
+    color: #fff;
+    margin-top: 0px;
+    padding-bottom:10px ;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#count-el{
+    margin:10px ;
+    font-size: 50px;
+    font-weight: bold;
+    color:lime;
+}
+
+button{
+    margin-top: 10px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    border-color: black;
+    font-size: 15px;
+    background: #f6f6f6;
+    color: limegreen;
+    font-weight: bold;
+    transition: all 0.1s ease-in-out;
+    /* border-style:none; */
+    border: none;
+}
+
+#reset-count{
+    color: black;
+    background-color:red;
+}
+
+#increment-btn:hover{
+    background:limegreen;
+    color: #f6f6f6;
+}
+
+#reset-count:hover{
+    background:black;
+    color: red;
+}
+
+.decrement-btn:hover{
+    background:limegreen;
+    color: #f6f6f6;
+}
+
+#save-btn{
+    margin-left: 0;
+    text-align: center;
+    color: #f6f6f6;
+    background:limegreen;
+    transition: all 0.5 ease-in-out;
+}
+
+#save-btn:hover{
+    background:#f6f6f6;
+    color: limegreen;
+}
+
+
+#save-el{
+    padding-top: 8px;
+    color: #f6f6f6;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+#reset-save{
+    color: #f6f6f6;
+    background:limegreen;
+}
+
+#reset-save:hover{
+    background:#f6f6f6;
+    color: limegreen;
+}

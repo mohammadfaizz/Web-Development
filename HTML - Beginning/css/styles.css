@@ -1,0 +1,58 @@
+body{
+  background-color: #DBE6FD;
+  margin: 0;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 8px;
+  width: 3%;
+}
+h1{
+  color: #125D98;
+
+}
+h3{
+  color: #79B4B7;
+  margin-left: 50px;
+}
+/*
+img{
+  background-color: red;
+}
+*/
+#image{
+  background-color: #125D98;
+}
+#image:hover{
+  background-color: #79B4B7;
+}
+
+label{
+
+  color: #125D98;
+}
+
+option{
+  color: #79B4B7;
+}
+
+input{
+  color: #79B4B7;
+}
+
+textarea{
+  color: #79B4B7;
+}
+
+.contact th{
+   color: #125D98;
+}
+
+.contact table{
+  border-color: #79B4B7;
+}
+.thankyou-h1{
+  font-size: 60px;
+}

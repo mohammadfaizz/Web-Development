@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background: cyan;
+    text-align: center;
+    padding: 10px;
+}
+
+input{
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    height: 32px;
+}
+
+textarea{
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+}
+
+.btn{
+
+    padding: 4px;
+    color: black;
+    background: white;
+    outline: none;
+    border-color: white;
+    font-size: large;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover{
+    background: black;
+    color: white;
+}
+
+hr{
+    height: 5px;
+    color: darkblue;
+    background: black;
+}
+
+h1{
+    padding: 5px;
+    margin: 0;
+}

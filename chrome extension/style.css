@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 10px;
+    background-color: #d2f8bc;
+    min-width: 400px;
+    max-width: 400px;
+}
+
+/* #######################Button Styling ####################### */
+
+.btn{
+   padding:10px;
+   text-transform: uppercase;
+   color: white;
+   background-color: #5f9341;
+   font-weight: 600;
+   border:1px solid #5f9341;
+   cursor: pointer;
+   transition: 0.1s all;
+}
+
+.btn:active{
+    box-shadow: #3e6627;
+    transform: scale(0.90);
+}
+
+.btn:hover{
+    background-color:#3e6627;
+    border:0.5px solid #5f9341;
+    font-weight: 1200;
+    border-radius: 3px;
+    font-weight: 900;
+}
+
+
+/* ##########################Input Styling########################### */
+
+#input-el{
+    width: 100%;
+    padding:10px;
+    border:1px solid #5f9341;
+}
+
+ul{
+    list-style: none;
+    padding-left:0;
+}
+
+li{
+    margin-top:10px;
+}
+
+li a{
+    color: #5f9341 ;
+}
+
+li a:hover{
+    color: #3e6627;
+    font-size: 105%;
+}
+
+li span{
+    background-color: #3e6627;
+    color: white;
+    padding:1px 2px;
+    margin-right:5px;
+}
+
+#input-el{
+   color: #3e6627;
+}
+
+/* #######################Flex Container Styling##################### */
+
+ #container{
+     display: flex;
+     flex-flow: row wrap;
+     margin-top:10px;
+     justify-content:space-between ;
+
+ }
+

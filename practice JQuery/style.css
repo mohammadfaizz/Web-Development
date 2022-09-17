@@ -1,0 +1,12 @@
+.item{
+    background-color: aqua;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}

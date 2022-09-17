@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="l">
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/styles.css">
+      <link rel="icon" href="favicon.ico">
+  </head>
+  <body>
+        <h1>Fill The Form</h1>
+         <hr>
+         <br>
+         <main class="form">
+         <form action="thankyou.html">
+               <label for="Name">Your Name</label>
+               <input type="text" name="Your Name" id="Name" placeholder="full name"><br>
+               <br>
+
+               <label>Select your Gender :</label><br><br>
+               <label for="male">Male</label>
+               <input type="radio" id="male" name="gender" value="Male"><br>
+
+               <label for="female">Female</label>
+               <input type="radio" name="gender" id="female" value="Female"><br>
+
+               <label for="others">Others</label>
+               <input type="radio" name="gender" id="others" value="Others"><br><br>
+
+               <label for="DOB">Date Of Birth</label>
+               <input type="date" name="Date Of Birth" id="DOB"><br><br>
+
+               <label for="email">Email Id</label>
+               <input type="email" name="Email Id" id="email" placeholder="email id"/><br><br>
+
+               <label for="country">Country</label>
+               <select class="country" name="Country">
+
+                 <option value="None">none</option>
+                 <option value="India">india</option>
+                 <option value="Pakistan">pakistan</option>
+                 <option value="USA">Usa</option>
+                 <option value="Turkey">turkey</option>
+                 <option value="Palestine">palestine</option>
+
+               </select>
+               <br>
+               <br>
+
+               <label for="description">Describe Your Self</label>
+               <textarea name="description" rows="10" cols="30" id="description" placeholder="type here..."></textarea><br><br>
+
+               <label>Are you agree to give information?</label>
+               <input type="checkbox" name="" value=""><br><br>
+
+               <input type="submit" value="Submit">
+             </form>
+
+      </main>
+      <br>
+      <hr>
+      <br>
+      <br>
+  </body>
+</html>

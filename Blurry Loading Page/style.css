@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg{
+    background: url(https://images.pexels.com/photos/2449600/pexels-photo-2449600.png?cs=srgb&dl=pexels-aidan-roof-2449600.jpg&fm=jpg) no-repeat center center/cover;
+    position:absolute;
+    top:-30;
+    left:-30;
+    width:calc(100vw + 60px);
+    height:calc(100vh + 60px);
+    z-index:-1;
+    filter:blur(0);
+}
+
+.load-text{
+    font-size: 50px;
+    color: white;
+}

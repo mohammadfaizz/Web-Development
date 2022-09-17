@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-wrapper{
+    background-color: aquamarine;
+    border: 2px solid black;
+    display: flex;
+    /* height: 45vh; */
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: cornsilk;
+    margin: 15px;
+    height: 150px;
+    width: 150px;
+}
+
+.box1{
+    /* flex-grow: 2; */
+    order: 3;
+}
+
+.box2{
+    flex-shrink: 2;
+    order: 2;
+}

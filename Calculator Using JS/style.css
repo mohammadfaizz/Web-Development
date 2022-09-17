@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+}
+
+button{
+    padding:10px;
+    margin: 5px;
+}
+
+#equal{
+    font-weight:bolder;
+}
